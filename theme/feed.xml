@@ -1,4 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-03-13T21:20:32+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">2019_03_13_TIL(1부터 100000더하기)</title><link href="http://localhost:4000/python/2019/03/13/TIL1.html" rel="alternate" type="text/html" title="2019_03_13_TIL(1부터 100000더하기)" /><published>2019-03-13T03:06:23+09:00</published><updated>2019-03-13T03:06:23+09:00</updated><id>http://localhost:4000/python/2019/03/13/TIL1</id><content type="html" xml:base="http://localhost:4000/python/2019/03/13/TIL1.html">&lt;h3 id=&quot;20190313-til&quot;&gt;2019.03.13 TIL&lt;/h3&gt;
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Your awesome title</title>
+    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 13 Mar 2019 21:20:32 +0900</pubDate>
+    <lastBuildDate>Wed, 13 Mar 2019 21:20:32 +0900</lastBuildDate>
+    <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>2019_03_13_TIL(1부터 100000더하기)</title>
+        <description>&lt;h3 id=&quot;20190313-til&quot;&gt;2019.03.13 TIL&lt;/h3&gt;
 
 &lt;h1 id=&quot;2개의-알고리즘-및-자료구조-문제해결&quot;&gt;2개의 알고리즘 및 자료구조 문제해결&lt;/h1&gt;
 
@@ -126,7 +139,21 @@ n이 4개일때 제일 앞에 꺼는 if문을 3번 돌아야 하고 다음 것�
 n(a+l)/2 —-&amp;gt; (n-1)(1+n-1)/2 = (n* 2 + 3n)/ 2 —&amp;gt; T(n** 2)으로 나왔다.&lt;/p&gt;
 
 &lt;h2 id=&quot;2stack을-활용한-계산기-구현&quot;&gt;2.Stack을 활용한 계산기 구현&lt;/h2&gt;
-&lt;p&gt;위의 것은 길이가 길어 다음 페이지로 넘긴다!&lt;/p&gt;</content><author><name></name></author><summary type="html">2019.03.13 TIL</summary></entry><entry><title type="html">테마 적용입니다.</title><link href="http://localhost:4000/theme/python/django/2019/03/11/top-10-python-libraries-of-2016-%EB%B3%B5%EC%82%AC%EB%B3%B8.html" rel="alternate" type="text/html" title="테마 적용입니다." /><published>2019-03-11T20:34:10+09:00</published><updated>2019-03-11T20:34:10+09:00</updated><id>http://localhost:4000/theme/python/django/2019/03/11/top-10-python-libraries-of-2016%20%EB%B3%B5%EC%82%AC%EB%B3%B8</id><content type="html" xml:base="http://localhost:4000/theme/python/django/2019/03/11/top-10-python-libraries-of-2016-%EB%B3%B5%EC%82%AC%EB%B3%B8.html">&lt;p&gt;Last year, we did a recap with what we thought were the &lt;a href=&quot;https://tryolabs.com/blog/2015/12/15/top-10-python-libraries-of-2015/&quot;&gt;best Python libraries of 2015&lt;/a&gt;, which was widely shared within the Python community (see post in&lt;a href=&quot;https://www.reddit.com/r/Python/comments/3wyiuv/top_10_python_libraries_of_2015/&quot;&gt;r/Python&lt;/a&gt;). A year has gone by, and again it is time to give due credit for the awesome work that has been done by the &lt;strong&gt;open source community&lt;/strong&gt; this year.&lt;/p&gt;
+&lt;p&gt;위의 것은 길이가 길어 다음 페이지로 넘긴다!&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 13 Mar 2019 03:06:23 +0900</pubDate>
+        <link>http://localhost:4000/python/2019/03/13/TIL1.html</link>
+        <guid isPermaLink="true">http://localhost:4000/python/2019/03/13/TIL1.html</guid>
+        
+        
+        <category>python</category>
+        
+      </item>
+    
+      <item>
+        <title>테마 적용입니다.</title>
+        <description>&lt;p&gt;Last year, we did a recap with what we thought were the &lt;a href=&quot;https://tryolabs.com/blog/2015/12/15/top-10-python-libraries-of-2015/&quot;&gt;best Python libraries of 2015&lt;/a&gt;, which was widely shared within the Python community (see post in&lt;a href=&quot;https://www.reddit.com/r/Python/comments/3wyiuv/top_10_python_libraries_of_2015/&quot;&gt;r/Python&lt;/a&gt;). A year has gone by, and again it is time to give due credit for the awesome work that has been done by the &lt;strong&gt;open source community&lt;/strong&gt; this year.&lt;/p&gt;
 
 &lt;p&gt;Again, we try to avoid most established choices such as Django, Flask, etc. that are kind of standard nowadays. Also, some of these libraries date prior to 2016, but either they had an explosion in popularity this year or we think they are great enough to deserve the spot. Here we go!&lt;/p&gt;
 
@@ -194,7 +221,40 @@ n(a+l)/2 —-&amp;gt; (n-1)(1+n-1)/2 = (n* 2 + 3n)/ 2 —&amp;gt; T(n** 2)으로
 
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;em&gt;Original source:&lt;/em&gt; &lt;a href=&quot;https://tryolabs.com/blog/2016/12/20/top-10-python-libraries-of-2016/&quot;&gt;&lt;em&gt;https://tryolabs.com/blog/2016/12/20/top-10-python…&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Last year, we did a recap with what we thought were the best Python libraries of 2015, which was widely shared within the Python community (see post inr/Python). A year has gone by, and again it is time to give due credit for the awesome work that has been done by the open source community this year.</summary></entry><entry><title type="html">처음 시작입니다.</title><link href="http://localhost:4000/jekyll/update/2019/03/10/welcome-to-jekyll-%EB%B3%B5%EC%82%AC%EB%B3%B8.html" rel="alternate" type="text/html" title="처음 시작입니다." /><published>2019-03-10T17:07:50+09:00</published><updated>2019-03-10T17:07:50+09:00</updated><id>http://localhost:4000/jekyll/update/2019/03/10/welcome-to-jekyll%20%EB%B3%B5%EC%82%AC%EB%B3%B8</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2019/03/10/welcome-to-jekyll-%EB%B3%B5%EC%82%AC%EB%B3%B8.html">&lt;p&gt;이제 조금씩 이해가기 시작하고 있다&lt;/p&gt;</content><author><name></name></author><summary type="html">이제 조금씩 이해가기 시작하고 있다</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2019/03/09/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2019-03-09T17:07:50+09:00</published><updated>2019-03-09T17:07:50+09:00</updated><id>http://localhost:4000/jekyll/update/2019/03/09/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2019/03/09/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Original source:&lt;/em&gt; &lt;a href=&quot;https://tryolabs.com/blog/2016/12/20/top-10-python-libraries-of-2016/&quot;&gt;&lt;em&gt;https://tryolabs.com/blog/2016/12/20/top-10-python…&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 11 Mar 2019 20:34:10 +0900</pubDate>
+        <link>http://localhost:4000/theme/python/django/2019/03/11/top-10-python-libraries-of-2016-%E1%84%87%E1%85%A9%E1%86%A8%E1%84%89%E1%85%A1%E1%84%87%E1%85%A9%E1%86%AB.html</link>
+        <guid isPermaLink="true">http://localhost:4000/theme/python/django/2019/03/11/top-10-python-libraries-of-2016-%E1%84%87%E1%85%A9%E1%86%A8%E1%84%89%E1%85%A1%E1%84%87%E1%85%A9%E1%86%AB.html</guid>
+        
+        
+        <category>theme</category>
+        
+        <category>python</category>
+        
+        <category>django</category>
+        
+      </item>
+    
+      <item>
+        <title>처음 시작입니다.</title>
+        <description>&lt;p&gt;이제 조금씩 이해가기 시작하고 있다&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 10 Mar 2019 17:07:50 +0900</pubDate>
+        <link>http://localhost:4000/jekyll/update/2019/03/10/welcome-to-jekyll-%E1%84%87%E1%85%A9%E1%86%A8%E1%84%89%E1%85%A1%E1%84%87%E1%85%A9%E1%86%AB.html</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll/update/2019/03/10/welcome-to-jekyll-%E1%84%87%E1%85%A9%E1%86%A8%E1%84%89%E1%85%A1%E1%84%87%E1%85%A9%E1%86%AB.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Welcome to Jekyll!</title>
+        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
 &lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
 
@@ -206,7 +266,39 @@ n(a+l)/2 —-&amp;gt; (n-1)(1+n-1)/2 = (n* 2 + 3n)/ 2 —&amp;gt; T(n** 2)으로
 &lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry><entry><title type="html">깃 허브 첫 강의입니다.!</title><link href="http://localhost:4000/jekyll/update/2019/03/07/%EB%B3%B5%EC%82%AC%EB%B3%B8-%EC%8B%9C%EC%9E%91.html" rel="alternate" type="text/html" title="깃 허브 첫 강의입니다.!" /><published>2019-03-07T17:07:50+09:00</published><updated>2019-03-07T17:07:50+09:00</updated><id>http://localhost:4000/jekyll/update/2019/03/07/%EB%B3%B5%EC%82%AC%EB%B3%B8%20%EC%8B%9C%EC%9E%91</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2019/03/07/%EB%B3%B5%EC%82%AC%EB%B3%B8-%EC%8B%9C%EC%9E%91.html">&lt;p&gt;오늘은 깃 허브 강의 들엇다&lt;/p&gt;</content><author><name></name></author><summary type="html">오늘은 깃 허브 강의 들엇다</summary></entry><entry><title type="html">Top 10 Python libraries of 2016</title><link href="http://localhost:4000/theme/python/django/2016/12/29/top-10-python-libraries-of-2016.html" rel="alternate" type="text/html" title="Top 10 Python libraries of 2016" /><published>2016-12-29T20:34:10+09:00</published><updated>2016-12-29T20:34:10+09:00</updated><id>http://localhost:4000/theme/python/django/2016/12/29/top-10-python-libraries-of-2016</id><content type="html" xml:base="http://localhost:4000/theme/python/django/2016/12/29/top-10-python-libraries-of-2016.html">&lt;p&gt;Last year, we did a recap with what we thought were the &lt;a href=&quot;https://tryolabs.com/blog/2015/12/15/top-10-python-libraries-of-2015/&quot;&gt;best Python libraries of 2015&lt;/a&gt;, which was widely shared within the Python community (see post in&lt;a href=&quot;https://www.reddit.com/r/Python/comments/3wyiuv/top_10_python_libraries_of_2015/&quot;&gt;r/Python&lt;/a&gt;). A year has gone by, and again it is time to give due credit for the awesome work that has been done by the &lt;strong&gt;open source community&lt;/strong&gt; this year.&lt;/p&gt;
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 09 Mar 2019 17:07:50 +0900</pubDate>
+        <link>http://localhost:4000/jekyll/update/2019/03/09/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll/update/2019/03/09/welcome-to-jekyll.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>깃 허브 첫 강의입니다.!</title>
+        <description>&lt;p&gt;오늘은 깃 허브 강의 들엇다&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 07 Mar 2019 17:07:50 +0900</pubDate>
+        <link>http://localhost:4000/jekyll/update/2019/03/07/%E1%84%87%E1%85%A9%E1%86%A8%E1%84%89%E1%85%A1%E1%84%87%E1%85%A9%E1%86%AB-%E1%84%89%E1%85%B5%E1%84%8C%E1%85%A1%E1%86%A8.html</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll/update/2019/03/07/%E1%84%87%E1%85%A9%E1%86%A8%E1%84%89%E1%85%A1%E1%84%87%E1%85%A9%E1%86%AB-%E1%84%89%E1%85%B5%E1%84%8C%E1%85%A1%E1%86%A8.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Top 10 Python libraries of 2016</title>
+        <description>&lt;p&gt;Last year, we did a recap with what we thought were the &lt;a href=&quot;https://tryolabs.com/blog/2015/12/15/top-10-python-libraries-of-2015/&quot;&gt;best Python libraries of 2015&lt;/a&gt;, which was widely shared within the Python community (see post in&lt;a href=&quot;https://www.reddit.com/r/Python/comments/3wyiuv/top_10_python_libraries_of_2015/&quot;&gt;r/Python&lt;/a&gt;). A year has gone by, and again it is time to give due credit for the awesome work that has been done by the &lt;strong&gt;open source community&lt;/strong&gt; this year.&lt;/p&gt;
 
 &lt;p&gt;Again, we try to avoid most established choices such as Django, Flask, etc. that are kind of standard nowadays. Also, some of these libraries date prior to 2016, but either they had an explosion in popularity this year or we think they are great enough to deserve the spot. Here we go!&lt;/p&gt;
 
@@ -274,7 +366,24 @@ n(a+l)/2 —-&amp;gt; (n-1)(1+n-1)/2 = (n* 2 + 3n)/ 2 —&amp;gt; T(n** 2)으로
 
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;em&gt;Original source:&lt;/em&gt; &lt;a href=&quot;https://tryolabs.com/blog/2016/12/20/top-10-python-libraries-of-2016/&quot;&gt;&lt;em&gt;https://tryolabs.com/blog/2016/12/20/top-10-python…&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Last year, we did a recap with what we thought were the best Python libraries of 2015, which was widely shared within the Python community (see post inr/Python). A year has gone by, and again it is time to give due credit for the awesome work that has been done by the open source community this year.</summary></entry><entry><title type="html">get Month Name [CF]</title><link href="http://localhost:4000/theme/python/codefights/2016/06/11/get-month-name-cf.html" rel="alternate" type="text/html" title="get Month Name [CF]" /><published>2016-06-11T05:43:45+09:00</published><updated>2016-06-11T05:43:45+09:00</updated><id>http://localhost:4000/theme/python/codefights/2016/06/11/get-month-name-cf</id><content type="html" xml:base="http://localhost:4000/theme/python/codefights/2016/06/11/get-month-name-cf.html">&lt;p&gt;Map the given integer to a month.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Original source:&lt;/em&gt; &lt;a href=&quot;https://tryolabs.com/blog/2016/12/20/top-10-python-libraries-of-2016/&quot;&gt;&lt;em&gt;https://tryolabs.com/blog/2016/12/20/top-10-python…&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 29 Dec 2016 20:34:10 +0900</pubDate>
+        <link>http://localhost:4000/theme/python/django/2016/12/29/top-10-python-libraries-of-2016.html</link>
+        <guid isPermaLink="true">http://localhost:4000/theme/python/django/2016/12/29/top-10-python-libraries-of-2016.html</guid>
+        
+        
+        <category>theme</category>
+        
+        <category>python</category>
+        
+        <category>django</category>
+        
+      </item>
+    
+      <item>
+        <title>get Month Name [CF]</title>
+        <description>&lt;p&gt;Map the given integer to a month.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Example:&lt;/strong&gt;&lt;/p&gt;
 
@@ -316,7 +425,24 @@ n(a+l)/2 —-&amp;gt; (n-1)(1+n-1)/2 = (n* 2 + 3n)/ 2 —&amp;gt; T(n** 2)으로
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;getMonthName&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;s&quot;&gt;&quot;invalid month&quot;&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><summary type="html">Map the given integer to a month.</summary></entry><entry><title type="html">Find the number of even digits in the given integer [CF]</title><link href="http://localhost:4000/theme/python/codefights/2016/06/11/find-the-number-of-even-digits-in-the-given-integer-cf.html" rel="alternate" type="text/html" title="Find the number of even digits in the given integer [CF]" /><published>2016-06-11T05:39:03+09:00</published><updated>2016-06-11T05:39:03+09:00</updated><id>http://localhost:4000/theme/python/codefights/2016/06/11/find-the-number-of-even-digits-in-the-given-integer-cf</id><content type="html" xml:base="http://localhost:4000/theme/python/codefights/2016/06/11/find-the-number-of-even-digits-in-the-given-integer-cf.html">&lt;p&gt;Find the number of even digits in the given integer.&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+</description>
+        <pubDate>Sat, 11 Jun 2016 05:43:45 +0900</pubDate>
+        <link>http://localhost:4000/theme/python/codefights/2016/06/11/get-month-name-cf.html</link>
+        <guid isPermaLink="true">http://localhost:4000/theme/python/codefights/2016/06/11/get-month-name-cf.html</guid>
+        
+        
+        <category>theme</category>
+        
+        <category>python</category>
+        
+        <category>codefights</category>
+        
+      </item>
+    
+      <item>
+        <title>Find the number of even digits in the given integer [CF]</title>
+        <description>&lt;p&gt;Find the number of even digits in the given integer.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Example&lt;/strong&gt;&lt;/p&gt;
 
@@ -359,7 +485,24 @@ Output: 1
 
 n: 135
 Output: 0
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><summary type="html">Find the number of even digits in the given integer.</summary></entry><entry><title type="html">Find Substrings for line Encoding [CF]</title><link href="http://localhost:4000/theme/python/codefights/2016/06/11/find-substrings-for-line-encoding-cf.html" rel="alternate" type="text/html" title="Find Substrings for line Encoding [CF]" /><published>2016-06-11T05:04:23+09:00</published><updated>2016-06-11T05:04:23+09:00</updated><id>http://localhost:4000/theme/python/codefights/2016/06/11/find-substrings-for-line-encoding-cf</id><content type="html" xml:base="http://localhost:4000/theme/python/codefights/2016/06/11/find-substrings-for-line-encoding-cf.html">&lt;p&gt;Given a string, return its encoding defined as follows:&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+</description>
+        <pubDate>Sat, 11 Jun 2016 05:39:03 +0900</pubDate>
+        <link>http://localhost:4000/theme/python/codefights/2016/06/11/find-the-number-of-even-digits-in-the-given-integer-cf.html</link>
+        <guid isPermaLink="true">http://localhost:4000/theme/python/codefights/2016/06/11/find-the-number-of-even-digits-in-the-given-integer-cf.html</guid>
+        
+        
+        <category>theme</category>
+        
+        <category>python</category>
+        
+        <category>codefights</category>
+        
+      </item>
+    
+      <item>
+        <title>Find Substrings for line Encoding [CF]</title>
+        <description>&lt;p&gt;Given a string, return its encoding defined as follows:&lt;/p&gt;
 
 &lt;p&gt;First, the string is divided into the least possible number of disjoint &lt;strong&gt;substrings&lt;/strong&gt; consisting of identical characters
 for example, &lt;code class=&quot;highlighter-rouge&quot;&gt;&quot;aabbbc&quot;&lt;/code&gt; is divided into &lt;code class=&quot;highlighter-rouge&quot;&gt;[&quot;aa&quot;, &quot;bbb&quot;, &quot;c&quot;]&lt;/code&gt;
@@ -419,7 +562,24 @@ Finally, all the new strings are concatenated together in the same order and a n
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;lineEncoding&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;s&quot;&gt;&quot;abcd&quot;&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><summary type="html">Given a string, return its encoding defined as follows:</summary></entry><entry><title type="html">CensorThis - Censor the words [CF]</title><link href="http://localhost:4000/theme/python/codefights/2016/05/22/censorthis-censor-the-words-cf.html" rel="alternate" type="text/html" title="CensorThis - Censor the words [CF]" /><published>2016-05-22T06:17:54+09:00</published><updated>2016-05-22T06:17:54+09:00</updated><id>http://localhost:4000/theme/python/codefights/2016/05/22/censorthis-censor-the-words-cf</id><content type="html" xml:base="http://localhost:4000/theme/python/codefights/2016/05/22/censorthis-censor-the-words-cf.html">&lt;p&gt;Author Question: &lt;strong&gt;Argaen&lt;/strong&gt;&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+</description>
+        <pubDate>Sat, 11 Jun 2016 05:04:23 +0900</pubDate>
+        <link>http://localhost:4000/theme/python/codefights/2016/06/11/find-substrings-for-line-encoding-cf.html</link>
+        <guid isPermaLink="true">http://localhost:4000/theme/python/codefights/2016/06/11/find-substrings-for-line-encoding-cf.html</guid>
+        
+        
+        <category>theme</category>
+        
+        <category>python</category>
+        
+        <category>codefights</category>
+        
+      </item>
+    
+      <item>
+        <title>CensorThis - Censor the words [CF]</title>
+        <description>&lt;p&gt;Author Question: &lt;strong&gt;Argaen&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Code Fights Weekly has gained popularity in the past months and is receiving lots of fan letters. Unfortunately, some of the readers use offensive words and the editor wants to keep the magazine family friendly.&lt;/p&gt;
 
@@ -499,4 +659,20 @@ forbiddenWords: [&quot;fluzz&quot;, &quot;z&quot;, &quot;ping&quot;, &quot;narf&
 Expected Output: &quot;The MAGIC words are fiz buzz and plaf&quot;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;Thanks to &lt;strong&gt;GOD&lt;/strong&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">Author Question: Argaen</summary></entry></feed>
+&lt;p&gt;Thanks to &lt;strong&gt;GOD&lt;/strong&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 22 May 2016 06:17:54 +0900</pubDate>
+        <link>http://localhost:4000/theme/python/codefights/2016/05/22/censorthis-censor-the-words-cf.html</link>
+        <guid isPermaLink="true">http://localhost:4000/theme/python/codefights/2016/05/22/censorthis-censor-the-words-cf.html</guid>
+        
+        
+        <category>theme</category>
+        
+        <category>python</category>
+        
+        <category>codefights</category>
+        
+      </item>
+    
+  </channel>
+</rss>

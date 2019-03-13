@@ -3,19 +3,19 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.5.0 -->
-<title>깃 허브 첫 강의입니다.! | Your awesome title</title>
+<title>Find the number of even digits in the given integer [CF] | Your awesome title</title>
 <meta name="generator" content="Jekyll v3.8.5" />
-<meta property="og:title" content="깃 허브 첫 강의입니다.!" />
+<meta property="og:title" content="Find the number of even digits in the given integer [CF]" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="오늘은 깃 허브 강의 들엇다" />
-<meta property="og:description" content="오늘은 깃 허브 강의 들엇다" />
-<link rel="canonical" href="http://localhost:4000/jekyll/update/2019/03/07/%EB%B3%B5%EC%82%AC%EB%B3%B8-%EC%8B%9C%EC%9E%91.html" />
-<meta property="og:url" content="http://localhost:4000/jekyll/update/2019/03/07/%EB%B3%B5%EC%82%AC%EB%B3%B8-%EC%8B%9C%EC%9E%91.html" />
+<meta name="description" content="Find the number of even digits in the given integer." />
+<meta property="og:description" content="Find the number of even digits in the given integer." />
+<link rel="canonical" href="http://localhost:4000/theme/python/codefights/2016/06/11/find-the-number-of-even-digits-in-the-given-integer-cf.html" />
+<meta property="og:url" content="http://localhost:4000/theme/python/codefights/2016/06/11/find-the-number-of-even-digits-in-the-given-integer-cf.html" />
 <meta property="og:site_name" content="Your awesome title" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2019-03-07T17:07:50+09:00" />
+<meta property="article:published_time" content="2016-06-11T05:39:03+09:00" />
 <script type="application/ld+json">
-{"description":"오늘은 깃 허브 강의 들엇다","@type":"BlogPosting","url":"http://localhost:4000/jekyll/update/2019/03/07/%EB%B3%B5%EC%82%AC%EB%B3%B8-%EC%8B%9C%EC%9E%91.html","headline":"깃 허브 첫 강의입니다.!","dateModified":"2019-03-07T17:07:50+09:00","datePublished":"2019-03-07T17:07:50+09:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/jekyll/update/2019/03/07/%EB%B3%B5%EC%82%AC%EB%B3%B8-%EC%8B%9C%EC%9E%91.html"},"@context":"http://schema.org"}</script>
+{"description":"Find the number of even digits in the given integer.","@type":"BlogPosting","url":"http://localhost:4000/theme/python/codefights/2016/06/11/find-the-number-of-even-digits-in-the-given-integer-cf.html","headline":"Find the number of even digits in the given integer [CF]","dateModified":"2016-06-11T05:39:03+09:00","datePublished":"2016-06-11T05:39:03+09:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/theme/python/codefights/2016/06/11/find-the-number-of-even-digits-in-the-given-integer-cf.html"},"@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Your awesome title" /></head>
 <body><header class="site-header" role="banner">
@@ -38,17 +38,59 @@
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">깃 허브 첫 강의입니다.!</h1>
+    <h1 class="post-title p-name" itemprop="name headline">Find the number of even digits in the given integer [CF]</h1>
     <p class="post-meta">
-      <time class="dt-published" datetime="2019-03-07T17:07:50+09:00" itemprop="datePublished">Mar 7, 2019
+      <time class="dt-published" datetime="2016-06-11T05:39:03+09:00" itemprop="datePublished">Jun 11, 2016
       </time></p>
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <p>오늘은 깃 허브 강의 들엇다</p>
+    <p>Find the number of even digits in the given integer.</p>
 
+<p><strong>Example</strong></p>
 
-  </div><a class="u-url" href="/jekyll/update/2019/03/07/%EB%B3%B5%EC%82%AC%EB%B3%B8-%EC%8B%9C%EC%9E%91.html" hidden></a>
+<ul>
+  <li>For <code class="highlighter-rouge">n = 1010</code>, the output should be <code class="highlighter-rouge">numberOfEvenDigits(n) = 2</code>.</li>
+  <li>For <code class="highlighter-rouge">n = 123</code>, the output should be <code class="highlighter-rouge">numberOfEvenDigits(n) = 1</code>.</li>
+</ul>
+
+<p><strong>Input/Output</strong></p>
+
+<ul>
+  <li>[time limit] 4000ms (py)</li>
+  <li>[input] integer n (A positive integer).</li>
+</ul>
+
+<p><strong><em>Constraints:</em></strong></p>
+
+<ul>
+  <li>
+    <p>1 ≤ n ≤ 106.</p>
+  </li>
+  <li>
+    <p><strong>[output] integer</strong></p>
+  </li>
+</ul>
+
+<p><strong>My Solution:</strong></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">numberOfEvenDigits</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+    <span class="k">return</span> <span class="nb">len</span><span class="p">(</span><span class="nb">filter</span><span class="p">(</span><span class="k">lambda</span> <span class="n">m</span><span class="p">:</span> <span class="n">m</span><span class="o">.</span><span class="n">isdigit</span><span class="p">()</span> <span class="ow">and</span> <span class="nb">int</span><span class="p">(</span><span class="n">m</span><span class="p">)</span> <span class="o">%</span> <span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="n">n</span><span class="p">)))</span>
+</code></pre></div></div>
+
+<p><strong>Rests Tests:</strong></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>n: 1010
+Output: 2
+
+n: 123
+Output: 1
+
+n: 135
+Output: 0
+</code></pre></div></div>
+
+  </div><a class="u-url" href="/theme/python/codefights/2016/06/11/find-the-number-of-even-digits-in-the-given-integer-cf.html" hidden></a>
 </article>
 
       </div>
